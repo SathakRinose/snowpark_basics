@@ -4,9 +4,9 @@ from snowflake.snowpark import Session
 from snowflake.snowpark.functions import col
 
 
-connection_parameters = {"account":"ijvunnh-ny22848",
-"user":"pradeep",
-"password": "AbcdAbcdAbcd067$",
+connection_parameters = {"account":"TMRKOTV-GE73803",
+"user":"SathakRinose",
+"password": "Treselle@367$%",
 "role":"ACCOUNTADMIN",
 "warehouse":"COMPUTE_WH",
 "database":"DEMO_DB",

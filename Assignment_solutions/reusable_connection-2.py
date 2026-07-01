@@ -1,0 +1,10 @@
+import os
+import sys
+import snowflake.snowpark.functions
+from snowflake.snowpark import Session
+from snowflake.snowpark.functions import col
+sys.path.append('SathakRinose/snowpark_basics/Assignment_solutions/')
+from generic_code import code_library   
+connection_parameters = {"account":"TMRKOTV-GE73803","user":"SathakRinose","password":"Treselle@367$%","role":"ACCOUNTADMIN","warehouse":"COMPUTE_WH","database":"DEMO_DB","schema":"PUBLIC"}
+session = code_library.create_session(connection_parameters)
+
